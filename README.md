@@ -24,6 +24,8 @@ The first part of the report will present our processes and thoughts to predict 
 
 •  sleep_merged.tsv
 
+This data is the folder data
+
 
 
 # Project Resources:
