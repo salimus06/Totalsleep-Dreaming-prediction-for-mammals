@@ -14,7 +14,7 @@ pip install - r requirements-correlation-biological-ecological-attributes.txt  (
 
 # Project purpose :
 
-The objective of the project is to use machine learning algorithms to predict two features of mammals: 
+• The objective of the project is to use machine learning algorithms to predict two features of mammals: 
 their sleeping time and their dreaming time. To do so, we will use a data set composed of 16 attributes (columns), ranked in four categories: general, biological, ecological and sleep attributes. The data set is relatively small, which is common in the biology world.
 The first part of the report will present our processes and thoughts to predict the total sleep. It will deal with the exploratory data analysis, the methods description and results interpretation. With the same structure, the second part will discuss about the prediction of the dreaming time. And finally, the third part will explore the links between the other attributes.
 
