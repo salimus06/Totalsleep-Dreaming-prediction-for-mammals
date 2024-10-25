@@ -11,17 +11,19 @@ pip install - r requirement.txt
 
 # Project purpose :
 
-• The objective of the project is to use machine learning algorithms to predict two features of mammals: 
-their sleeping time and their dreaming time. To do so, we will use a data set composed of 16 attributes (columns), ranked in four categories: general, biological, ecological and sleep attributes. The data set is relatively small, which is common in the biology world.
-The first part of the report will present our processes and thoughts to predict the total sleep. It will deal with the exploratory data analysis, the methods description and results interpretation. With the same structure, the second part will discuss about the prediction of the dreaming time. And finally, the third part will explore the links between the other attributes.
+• This project implements a Convolutional Neural Network (CNN) to predict car models across 196 classes using the Stanford Cars Dataset. The objective is to develop a deep learning model that accurately classifies images of cars into their respective make, model, and year categories. This serves as an application of computer vision techniques for fine-grained image classification, leveraging Python and frameworks like TensorFlow. The project is designed to provide insights into building and training CNNs for detailed object recognition tasks.
 
  # Data used :
  
-•  Famille_Taxonomie.xlsx 
+• The dataset used in this project is the Stanford Cars Dataset, which contains 16,185 images of cars, annotated with the car model name only. The dataset includes 196 different car model classes, representing various makes, models, and production years. The images feature cars from different angles, lighting conditions, and backgrounds, offering a realistic variety for training and testing deep learning models. The dataset is specifically curated for fine-grained image classification, allowing models to distinguish subtle visual differences between car models using the provided annotations.
 
-•  sleep_merged.tsv
 
-This data is the folder data
+
+
+
+
+
+
 
 
 
