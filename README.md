@@ -1,17 +1,13 @@
-# Totalsleep-Dreaming-prediction-for-mammals
-Predicting Totalsleep and Dreaming time for mammals
+# Classification of car model using the Stanford Cars dataset
+Computer vision project
 
 # Installation (local)
 
 • Install requirements :
 
+'''python
 pip install - r requirements-dreaming_prediction.txt   (to predict Dreaming).
-
-pip install - r requirements-totalsleep-prediction.txt  (to predict Totalsleep).
-
-pip install - r requirements-correlation-biological-ecological-attributes.txt  (to see the correlation between biological & ecological atributes).
-
-
+'''
 # Project purpose :
 
 • The objective of the project is to use machine learning algorithms to predict two features of mammals: 
