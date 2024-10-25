@@ -5,9 +5,10 @@ Computer vision project
 
 • Install requirements :
 
-'''python
-pip install - r requirements-dreaming_prediction.txt   (to predict Dreaming).
-'''
+```python
+pip install - r requirement.txt 
+```
+
 # Project purpose :
 
 • The objective of the project is to use machine learning algorithms to predict two features of mammals: 
