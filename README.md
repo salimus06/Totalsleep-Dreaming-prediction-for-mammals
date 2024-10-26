@@ -1,40 +1,39 @@
-# Classification of car model using the Stanford Cars dataset
-Computer vision project
+# Totalsleep-Dreaming-prediction-for-mammals
+Predicting Totalsleep and Dreaming time for mammals
 
 # Installation (local)
 
 • Install requirements :
 
-```python
-pip install - r requirement.txt 
-```
+pip install - r requirements-dreaming_prediction.txt   (to predict Dreaming).
+
+pip install - r requirements-totalsleep-prediction.txt  (to predict Totalsleep).
+
+pip install - r requirements-correlation-biological-ecological-attributes.txt  (to see the correlation between biological & ecological atributes).
+
 
 # Project purpose :
 
-• This project implements a Convolutional Neural Network (CNN) to predict car models across 196 classes using the Stanford Cars Dataset. The objective is to develop a deep learning model that accurately classifies images of cars into their respective make, model, and year categories. This serves as an application of computer vision techniques for fine-grained image classification, leveraging Python and frameworks like TensorFlow. The project is designed to provide insights into building and training CNNs for detailed object recognition tasks.
+• The objective of the project is to use machine learning algorithms to predict two features of mammals: 
+their sleeping time and their dreaming time. To do so, we will use a data set composed of 16 attributes (columns), ranked in four categories: general, biological, ecological and sleep attributes. The data set is relatively small, which is common in the biology world.
+The first part of the report will present our processes and thoughts to predict the total sleep. It will deal with the exploratory data analysis, the methods description and results interpretation. With the same structure, the second part will discuss about the prediction of the dreaming time. And finally, the third part will explore the links between the other attributes.
 
-# Data used :
+ # Data used :
  
-• The dataset used in this project is the Stanford Cars Dataset, which contains 16,185 images of cars, annotated with the car model name only. The dataset includes 196 different car model classes, representing various makes, models, and production years. The images feature cars from different angles, lighting conditions, and backgrounds, offering a realistic variety for training and testing deep learning models. The dataset is specifically curated for fine-grained image classification, allowing models to distinguish subtle visual differences between car models using the provided annotations.
+•  Famille_Taxonomie.xlsx 
 
-Link to the dataset : https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset?resource=download
- 
-# Models used :
+•  sleep_merged.tsv
 
-•	AlexNet
-•	VGG16
-•	ResNet50
-•	DenseNet
-•	ImageNet
-•	EfficientNet
-•	InceptionV3
+This data is the folder data
 
 
 
+# Project Resources:
+Here are additional resources that may be helpful for the project. The dataset has been built from a merge of two studies on sleep duration in mammals:
 
+• Allison T, Cicchetti DV. Sleep in mammals: ecological and constitutional correlates. 
+Science. 1976 Nov 12;194(4266):732-4. doi: 10.1126/science.982039. PMID: 982039.
 
-
-
-
-
-
+• Savage VM, West GB. A quantitative, theoretical framework for understanding 
+mammalian sleep. Proc Natl Acad Sci U S A. 2007 Jan 16;104(3):1051-6. doi: 
+10.1073/pnas.0610080104. Epub 2007 Jan 10. PMID: 17215372; PMCID: PMC1783362.
